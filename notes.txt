@@ -18,3 +18,8 @@ $ lsof -t -i:8081
 $ kill $(lsof -t -i:8081)
 
 $ react-native run-ios
+
+
+Add Redux to app
+
+$ npm install --save redux react-redux 
