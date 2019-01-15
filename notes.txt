@@ -1,0 +1,20 @@
+
+Blog from 
+
+React Native Navigation V2 is Here!
+Building a simple app navigation using React Native Navigation V2
+
+https://medium.com/wix-engineering/react-native-navigation-v2-is-here-5b7c87f002a
+
+
+To fix problem on:
+
+failed to load bundle(http://localhost:8081/index.bundle?platform=ios&dev=true
+
+$rm -rf ios/build/
+ 
+$ lsof -t -i:8081 
+
+$ kill $(lsof -t -i:8081)
+
+$ react-native run-ios
